@@ -4,7 +4,7 @@ from transformers import T5Tokenizer, T5ForConditionalGeneration, Trainer, Train
 from datasets import Dataset
 
 # Load the dataset
-with open(r"C:\Projects\ShadowGUITesting\t5_train\generated_dataset_with_testcase_context_and_promote.json", "r") as f:
+with open("./t5_train/training_data.json", "r") as f:
     data = json.load(f)
 
 # Prepare the dataset
