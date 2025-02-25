@@ -1,0 +1,8 @@
+path: <Parent folder path for images and labels>
+train: images/train
+val: images/val
+test:  # optional
+names:
+  0: class1
+  1: class2
+  2: clsas3
