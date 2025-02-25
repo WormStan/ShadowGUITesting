@@ -11,6 +11,13 @@ torchaudio = "*"
 cairosvg = "*"
 albumentations = "*"
 mss = "*"
+pyautogui = "*"
+opencv-contrib-python = "*"
+transformers = "*"
+sentencepiece = "*"
+pandas = "*"
+datasets = "*"
+accelerate = "*"
 
 [dev-packages]
 

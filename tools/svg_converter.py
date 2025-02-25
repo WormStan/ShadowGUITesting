@@ -25,7 +25,7 @@ class SvgConverter:
         :param svg_file: Path to the SVG file to be converted.
         """
         # Read the SVG content from the file
-        with open(svg_file, 'r',encoding='utf-8') as file:
+        with open(svg_file, 'r', encoding='utf-8') as file:
             svg_content = file.read()
 
         # Generate the output PNG file name

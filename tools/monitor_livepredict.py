@@ -10,11 +10,12 @@ import numpy as np
 from ultralytics import YOLO
 from mss import mss
 
+
 def live_predict(model_path, monitor_number):
     model = YOLO(model_path)
     sct = mss()
     monitor = sct.monitors[monitor_number]
-    
+
     while True:
         img = np.array(sct.grab(monitor))
         img = cv2.cvtColor(img, cv2.COLOR_BGRA2BGR)
